@@ -12,6 +12,10 @@ const PORT = process.env.PORT || 5000;
 app.use(cors());
 app.use(express.json());
 
+const attendanceRoutes = require('./routes/attendanceRoutes'); 
+app.use('/api/attendance', attendanceRoutes); // mount after middlewares
+
+
 // Sample route
 app.get("/", (req, res) => {
   res.send("Server is running ✅");
@@ -21,3 +25,7 @@ app.get("/", (req, res) => {
 app.listen(PORT, () => {
   console.log(`Server listening on port ${PORT}`);
 });
+
+const attendanceRoutes = require('./routes/attendanceRoutes');
+
+app.use('/api/attendance', attendanceRoutes);
