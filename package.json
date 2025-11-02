@@ -1,29 +1,5 @@
 {
-  "name": "defaulter-s-guide",
-  "version": "1.0.0",
-  "main": "index.js",
-  "scripts": {
-    "dev": "nodemon Backend/server.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/rockStaar/Defaulter-s-Guide.git"
-  },
-  "type": "module",
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/rockStaar/Defaulter-s-Guide/issues"
-  },
-  "homepage": "https://github.com/rockStaar/Defaulter-s-Guide#readme",
   "dependencies": {
-    "dotenv": "^16.5.0",
-    "express": "^5.1.0",
-    "mongodb": "^6.17.0",
-    "mongoose": "^8.15.1",
-    "nodemon": "^3.1.10"
-  },
-  "devDependencies": {},
-  "description": ""
+    "chart.js": "^4.5.1"
+  }
 }
